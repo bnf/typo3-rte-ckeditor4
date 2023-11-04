@@ -1,7 +1,7 @@
 {
-	"name": "typo3/cms-rte-ckeditor",
-	"type": "typo3-cms-framework",
-	"description": "TYPO3 CMS RTE CKEditor - Integration of CKEditor as a Rich Text Editor for the TYPO3 backend.",
+	"name": "friendsoftypo3/rte-ckeditor4",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 CMS RTE CKEditor v4 - Integration of CKEditor4 as a Rich Text Editor for the TYPO3 backend.",
 	"homepage": "https://typo3.org",
 	"license": ["GPL-2.0-or-later"],
 	"authors": [{
@@ -11,9 +11,9 @@
 	}],
 	"support": {
 		"chat": "https://typo3.org/help",
-		"docs": "https://docs.typo3.org/c/typo3/cms-rte-ckeditor/main/en-us",
-		"issues": "https://forge.typo3.org",
-		"source": "https://github.com/typo3/typo3"
+		"docs": "https://docs.typo3.org/c/typo3/cms-rte-ckeditor/11.5/en-us/Introduction/Index.html",
+		"issues": "https://github.com/FriendsOfTYPO3/rte_ckeditor4/issues",
+		"source": "https://github.com/FriendsOfTYPO3/rte_ckeditor4"
 	},
 	"config": {
 		"sort-packages": true
@@ -22,19 +22,14 @@
 		"typo3/cms-core": "12.0.*@dev"
 	},
 	"conflict": {
+		"typo3/cms-rte-ckeditor": "*",
 		"typo3/cms": "*"
-	},
-	"suggest": {
-		"typo3/cms-setup": "*"
 	},
 	"extra": {
 		"branch-alias": {
 			"dev-main": "12.0.x-dev"
 		},
 		"typo3/cms": {
-			"Package": {
-				"partOfFactoryDefault": true
-			},
 			"extension-key": "rte_ckeditor"
 		}
 	},
