@@ -1,5 +1,5 @@
 {
-	"name": "friendsoftypo3/rte-ckeditor4",
+	"name": "bnf/typo3-rte-ckeditor4",
 	"type": "typo3-cms-extension",
 	"description": "TYPO3 CMS RTE CKEditor v4 - Integration of CKEditor4 as a Rich Text Editor for the TYPO3 backend.",
 	"homepage": "https://typo3.org",
